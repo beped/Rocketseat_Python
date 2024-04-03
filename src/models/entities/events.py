@@ -10,11 +10,11 @@ class Events(Base):
     slug = Column(String,nullable=False)
     maximum_attendees = Column(Integer)
 
-class attendees(Base):
-    __tablename__ = 'attendees'
+# class attendees(Base):
+#     __tablename__ = 'attendees'
 
-    id = Column(String, primary_key=True)
-    name = Column(String, nullable=False)
-    email = Column(String, nullable=False)
-    event_id = Column(String, nullable=False)
-    created_at = Column()
+#     id = Column(String, primary_key=True)
+#     name = Column(String, nullable=False)
+#     email = Column(String, nullable=False)
+#     event_id = Column(String, nullable=False)
+#     created_at = Column()
