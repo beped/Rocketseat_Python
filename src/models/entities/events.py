@@ -13,11 +13,3 @@ class Events(Base):
     def __repr__(self):
         return f"Events [title={self.title}, slug={self.slug}, maximum_attendees={self.maximum_attendees}]"
     
-# class Attendees(Base):
-#     __tablename__ = 'attendees'
-
-#     id = Column(String, primary_key=True)
-#     name = Column(String, nullable=False)
-#     email = Column(String, nullable=False)
-#     event_id = Column(String, nullable=False)
-#     created_at = Column()
